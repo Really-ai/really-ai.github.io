@@ -60,6 +60,7 @@ li::marker {
 }
 #toc li a {
   text-decoration: none;
+  color: #80f;
 }
 
 /* Indentation for multi-level TOC */
