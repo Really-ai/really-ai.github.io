@@ -20,7 +20,7 @@ $(document).ready(function () {
   var toc = $("#toc");
   $("h2, h3, h4, h5, h6").each(function (i, heading) {
     $(this).html('<a href="#toc">' + $(this).html() + "</a>");
-    var level = $(heading).get(0).tagName.substring(1); // Get heading level (H1, H2, etc.)
+    var level = $(heading).get(0).tagName.substring(1); // Get heading level (H2, H3, etc.)
     var anchor = $(heading).attr("id") || "toc-link-" + i; // Create anchor if missing
     $(heading).attr("id", anchor); // Set anchor ID for linking
 
