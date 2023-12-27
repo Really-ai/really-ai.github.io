@@ -52,7 +52,6 @@ $(document).ready(function () {
       data[0] = "v=l";
       data[2] = "index=" + (randomNum - 1);
     }
-    msg(randomNum);
     window.open(`${site[0]}?${data[0]}&${data[1]}&${data[2]}`);
   });
 });
