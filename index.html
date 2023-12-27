@@ -1,42 +1,64 @@
 <head>
-  <style>
-    .center {
-      padding-top: 30px;
-      text-align: center;
-    }
-  </style>
-</head>
-
-<link rel="stylesheet" href="css/main.css" />
-
-<!-- All header tags from h2 to h6 will be automatically added to the Table of Contents.
-Please make sure to add id attributes to the header tags to automate hyperlink. -->
-
-<div id="toc">
-  <h1>Table of Contents</h1>
-</div>
-
-<body>
-  <div>
-    <h2 id="astdacalc">Astrology Date Calculator</h2>
-    <div class="center">
-      <form method="post" onsubmit="openWebsite(); return false;">
-        <label for="date">Date:</label>
-        <input type="text" id="date" name="date" /><br /><br />
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-  </div>
-  <div>
-    <h2 id="yousosel">Youtube Song Selector</h2>
-    <div class="center">
-      <label for="maxNumber">Total Videos Number:</label>
-      <input type="number" id="maxNumber" /><br /><br />
-      <label for="ytURL">First Youtube Playlist Song URL:</label>
-      <input type="text" id="ytURL" /><br /><br />
-      <button id="generateButton">Open Selected Song</button><br /><br />
-    </div>
-  </div>
+  <title>Barly's Useful Website</title>
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="favicon/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="favicon/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="favicon/favicon-16x16.png"
+  />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <link rel="stylesheet" href="css/main.css" />
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="page-title"><span>Ra - Barly's Useful Website</span></div>
+  <!-- All header tags from h2 to h6 will be automatically added to the Table of Contents.
+Please make sure to add id attributes to the header tags to automate hyperlink. -->
+  <div id="toc-container">
+    <div id="toc-bg">
+      <div id="toc">
+        <h1>Table of Contents</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div>
+      <h2 id="astdacalc">Astrology Date Calculator</h2>
+      <div class="center">
+        <form method="post" onsubmit="openWebsite(); return false;">
+          <label for="date">Date:</label>
+          <input type="text" id="date" name="date" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div>
+      <h2 id="yousosel">Youtube Song Selector</h2>
+      <div class="center">
+        <label for="maxNumber">Total Videos Number:</label>
+        <input type="number" id="maxNumber" /><br /><br />
+        <label for="ytURL">First Youtube Playlist Song URL:</label>
+        <input type="text" id="ytURL" /><br /><br />
+        <button id="generateButton">Open Selected Song</button><br /><br />
+      </div>
+    </div>
+  </div>
+  <div id="copyright-and-credits">
+    <h1>Copyright and Credits</h1>
+    <div>Title font credited to en.bestfonts.pro</div>
+  </div>
 </body>
