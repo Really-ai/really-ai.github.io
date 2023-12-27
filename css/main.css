@@ -1,0 +1,61 @@
+li a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+#toc {
+  padding: 50px;
+  background-color: gray;
+  border-radius: 30px;
+  width: fit-content;
+  color: rgb(38, 0, 255);
+}
+#toc h1 {
+  cursor: default;
+}
+
+#toc li {
+  margin-bottom: 5px;
+}
+
+#toc li a {
+}
+
+/* Indentation for multi-level TOC */
+#toc li.toc-level-2 {
+  margin-left: 15px;
+}
+#toc li.toc-level-3 {
+  margin-left: 30px;
+}
+#toc li.toc-level-4 {
+  margin-left: 45px;
+}
+#toc li.toc-level-5 {
+  margin-left: 60px;
+}
+#toc li.toc-level-6 {
+  margin-left: 75px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+h4 {
+  margin-left: 60px;
+}
+h5 {
+  margin-left: 90px;
+}
+h6 {
+  margin-left: 120px;
+}
+
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+  color: black;
+}
