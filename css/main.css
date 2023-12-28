@@ -80,6 +80,15 @@ li::marker {
   margin-left: 75px;
 }
 
+.program {
+  border: 5px solid #ffd700; /* Inner border */
+  box-shadow: 0 0 0 5px rgb(140, 0, 255); /* Outer border as a shadow */
+  background-color: #ff5;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px 15px 15px 15px;
+}
 h3 {
   margin-left: 30px;
 }
@@ -100,4 +109,13 @@ h5 a,
 h6 a {
   text-decoration: none;
   color: black;
+}
+#copyright-and-credits {
+  border: 5px solid #ffd700; /* Inner border */
+  box-shadow: 0 0 0 5px rgb(0, 255, 213); /* Outer border as a shadow */
+  background-color: #ff5;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px 15px 15px 15px;
 }
