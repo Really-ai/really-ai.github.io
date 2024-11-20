@@ -72,5 +72,9 @@ $(document).ready(function () {
     }
     window.open(`${site[0]}?${data[0]}&${data[1]}&${data[2]}`);
   });
-  $(".img_standard").css("height", window.innerHeight);
+  if (window.innerHeight < window.innerWidth) {
+    $(".img_standard").css("height", window.innerHeight);
+  } else {
+    $(".img_standard").css("width", window.innerWidth);
+  }
 });
