@@ -72,4 +72,6 @@ $(document).ready(function () {
     }
     window.open(`${site[0]}?${data[0]}&${data[1]}&${data[2]}`);
   });
+
+  $(".img_standard").css("height", window.innerHeight);
 });
